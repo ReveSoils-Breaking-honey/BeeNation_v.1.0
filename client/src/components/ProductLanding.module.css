@@ -1,0 +1,114 @@
+.product {
+  position: absolute;
+  top: -60.53%;
+  left: 0;
+  text-decoration: underline;
+  letter-spacing: -1.15px;
+}
+.arrowUpIcon,
+.selectLabel {
+  position: relative;
+  width: 76.95px;
+  height: 15.55px;
+}
+.arrowUpIcon {
+  width: 24px;
+  height: 24px;
+}
+.label1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+}
+.label6 {
+  position: relative;
+  width: 36px;
+  height: 12.67px;
+}
+.itemHovervariant5Icon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.item {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.item,
+.item1,
+.item2 {
+  background-color: var(--colors-grey-white);
+  width: 208.01px;
+  height: 31.33px;
+  display: flex;
+  flex-direction: row;
+  padding: 8.00040054321289px 121.33940124511719px 8.00040054321289px
+    8.00040054321289px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 133.34px;
+}
+.item1 {
+  position: absolute;
+  top: 30.33px;
+  left: 0;
+}
+.item2 {
+  top: 60.67px;
+}
+.item2,
+.item3,
+.item4 {
+  position: absolute;
+  left: 0;
+}
+.item3 {
+  top: 91px;
+  background-color: var(--colors-grey-white);
+  width: 208.01px;
+  height: 31.33px;
+  display: flex;
+  flex-direction: row;
+  padding: 8.00040054321289px 121.33940124511719px 8.00040054321289px
+    8.00040054321289px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 133.34px;
+}
+.item4 {
+  top: 121.34px;
+}
+.itemList {
+  position: relative;
+  width: 364px;
+  height: 244px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: 10.67px;
+  font-family: var(--font-inter);
+}
+.dropdownBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productLanding {
+  position: relative;
+  width: 364px;
+  height: 288px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--text-primary);
+  font-family: var(--font-lato);
+}
