@@ -1,0 +1,12 @@
+{
+        "plugins": [
+          "@salesforce/eslint-plugin-lightning"
+        ],
+        "extends": [
+          "@salesforce/eslint-config-lwc/recommended"
+        ],
+        "rules": {
+          // Your custom rules
+        }
+    // "extends": ["@salesforce/eslint-config-lwc/recommended"]
+}

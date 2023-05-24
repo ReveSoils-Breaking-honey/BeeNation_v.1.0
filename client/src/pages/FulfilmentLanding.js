@@ -1,8 +1,10 @@
+import React from "react";
 import { useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import ProductLanding from "../components/ProductLanding";
 import PortalPopup from "../components/PortalPopup";
 import styles from "./FulfilmentLanding.module.css";
+
 const FulfilmentLanding = () => {
   const navigate = useNavigate();
   const [isProductLandingOpen, setProductLandingOpen] = useState(false);

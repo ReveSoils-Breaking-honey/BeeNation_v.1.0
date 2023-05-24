@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./ProductLanding.module.css";
 const ProductLanding = ({ onClose }) => {
   return (

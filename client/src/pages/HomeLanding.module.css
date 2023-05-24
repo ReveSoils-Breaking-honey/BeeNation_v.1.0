@@ -220,6 +220,9 @@
   color: var(--colors-base-color-6);
   font-family: var(--font-public-sans);
 }
+
+
+
 .customerTestimonials {
   align-self: stretch;
   position: relative;
@@ -482,6 +485,10 @@
   text-align: center;
   color: var(--neutral-500);
 }
+
+
+
+
 .howToSell1 {
   position: relative;
   letter-spacing: -2.67px;
@@ -728,6 +735,10 @@
   font-size: 10.67px;
   color: var(--secondary-500);
 }
+
+
+
+
 .howToSell {
   position: absolute;
   top: 3726.67px;
@@ -831,6 +842,10 @@
   font-size: var(--font-size-13xl);
   color: var(--colors-grey-white);
 }
+
+
+
+
 .gettingStarted,
 .heading1 {
   display: flex;
@@ -949,6 +964,10 @@
   align-items: flex-start;
   gap: 61px;
 }
+
+
+
+
 .content8,
 .part3,
 .whyChooseUs {
@@ -1002,6 +1021,10 @@
   height: 466.67px;
   object-fit: cover;
 }
+
+
+
+
 .heading3,
 .products {
   display: flex;
@@ -1199,6 +1222,10 @@
   font-size: 10.67px;
   color: var(--color-darkslategray-100);
 }
+
+
+
+
 .featuredCollection {
   position: absolute;
   top: 720px;
@@ -1297,6 +1324,10 @@
   height: 260px;
   object-fit: cover;
 }
+
+
+
+
 .frontChild {
   position: absolute;
   bottom: 291.33px;
@@ -1321,6 +1352,10 @@
   background-color: var(--text-primary);
   height: 36.67px;
 }
+
+
+
+
 .firstCustomerOffer,
 .support {
   position: absolute;

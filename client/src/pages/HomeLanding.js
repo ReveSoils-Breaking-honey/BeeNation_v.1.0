@@ -1,14 +1,17 @@
+import React from 'react';
 import { useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import ProductLanding from "../components/ProductLanding";
 import PortalPopup from "../components/PortalPopup";
 import styles from "./HomeLanding.module.css";
+import  Navbar from "../components/Navbar";
+
 const HomeLanding = () => {
   const navigate = useNavigate();
   const [isProductLandingOpen, setProductLandingOpen] = useState(false);
 
   const onSupportTextClick = useCallback(() => {
-    // Please sync "Support" to the project
+      navigate("/login");
   }, []);
 
   const onFrameContainer22Click = useCallback(() => {
@@ -22,6 +25,7 @@ const HomeLanding = () => {
   const onHomeTextClick = useCallback(() => {
     navigate("/");
   }, [navigate]);
+
 
   const openProductLanding = useCallback(() => {
     setProductLandingOpen(true);
@@ -106,7 +110,7 @@ const HomeLanding = () => {
                 <p className={styles.p}>Home</p>
                 <p className={styles.p}>Product</p>
                 <p className={styles.p}>Market Place</p>
-                <p className={styles.p}>Fulfilement</p>
+                <p className={styles.p}>Fulfilment</p>
               </div>
               <div className={styles.navigation}>Navigation</div>
             </div>
@@ -637,59 +641,12 @@ const HomeLanding = () => {
           <img className={styles.image21Icon} alt="" src="/image-21@2x.png" />
           <img className={styles.frontChild} alt="" src="/frame-75.svg" />
         </div>
-        <div className={styles.headerHome}>
-          <div className={styles.headerHomeChild} />
-          <div className={styles.support} onClick={onSupportTextClick}>
-            Support
-          </div>
-          <div
-            className={styles.firstCustomerOffer}
-          >{`FIRST CUSTOMER OFFER  20% ON SHIPPING FEES                     FEB. 25–28. `}</div>
-          <div className={styles.navbar}>
-            <div
-              className={styles.loginButtonParent}
-              onClick={onFrameContainer22Click}
-            >
-              <button
-                className={styles.loginButton}
-                autoFocus
-                onClick={onLoginButtonClick}
-              >
-                <div className={styles.base} />
-                <b className={styles.login}>Login</b>
-              </button>
-              <button className={styles.signupButton}>
-                <div className={styles.base1} />
-                <div className={styles.signUp}>Sign Up</div>
-              </button>
-            </div>
-            <div className={styles.homeParent}>
-              <b className={styles.home1} onClick={onHomeTextClick}>
-                Home
-              </b>
-              <div className={styles.product1} onClick={openProductLanding}>
-                Product
-              </div>
-              <div className={styles.product1} onClick={onMarketPlaceTextClick}>
-                Market Place
-              </div>
-              <div
-                className={styles.product1}
-                onClick={onMarketPlaceText1Click}
-              >
-                Fulfilment
-              </div>
-            </div>
-            <b className={styles.logo} onClick={onLogoTextClick}>
-              Name
-            </b>
-          </div>
-        </div>
+
+        <Navbar />
       </div>
       {isProductLandingOpen && (
         <PortalPopup
           overlayColor="rgba(113, 113, 113, 0.3)"
-          placement="Centered"
           onOutsideClick={closeProductLanding}
         >
           <ProductLanding onClose={closeProductLanding} />

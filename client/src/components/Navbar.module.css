@@ -1,0 +1,187 @@
+
+.frontChild {
+  position: absolute;
+  bottom: 291.33px;
+  left: 832.67px;
+  width: 113.33px;
+  height: 113.33px;
+}
+.front,
+.headerHomeChild {
+  position: absolute;
+  left: 0;
+  width: 1280px;
+}
+.front {
+  top: 93px;
+  height: 627.33px;
+  font-size: 36.39px;
+  color: var(--colors-grey-white);
+}
+.headerHomeChild {
+  top: 0;
+  background-color: var(--text-primary);
+  height: 36.67px;
+}
+
+.firstCustomerOffer,
+.support {
+  position: absolute;
+  letter-spacing: -0.55px;
+  font-weight: 500;
+}
+.support {
+  top: 6.4px;
+  left: 1101.71px;
+  cursor: pointer;
+}
+.firstCustomerOffer {
+  top: 10.06px;
+  left: 406.86px;
+}
+.base,
+.login {
+  position: absolute;
+}
+.base {
+  height: 102%;
+  width: 100.62%;
+  top: -1%;
+  right: -0.31%;
+  bottom: -1%;
+  left: -0.31%;
+  border-radius: 33.33px;
+  background-color: var(--background-primary);
+  border: 0.7px solid var(--primary);
+  box-sizing: border-box;
+}
+.login {
+  top: 2.67px;
+  left: 28.41px;
+  font-size: 23.33px;
+  letter-spacing: -1.08px;
+  font-family: var(--font-lato);
+  color: var(--text-primary);
+  text-align: center;
+  text-shadow: 0 2.6666665077209473px 2.67px rgba(0, 0, 0, 0.25);
+}
+.loginButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 106.67px;
+  height: 33.33px;
+}
+.base1,
+.signUp {
+  position: absolute;
+}
+.base1 {
+  height: 102%;
+  width: 100.56%;
+  top: -1%;
+  right: -0.28%;
+  bottom: -1%;
+  left: -0.28%;
+  border-radius: 33.33px;
+  background-color: var(--background-primary);
+  border: 0.7px solid var(--text-primary);
+  box-sizing: border-box;
+}
+.signUp {
+  top: 2.67px;
+  left: 23.08px;
+  font-size: 23.33px;
+  letter-spacing: -1.08px;
+  font-weight: 600;
+  font-family: var(--font-lato);
+  color: var(--text-primary);
+  text-align: center;
+  text-shadow: 0 2.6666665077209473px 2.67px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 0.7px #979797;
+}
+.signupButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 120px;
+  height: 33.33px;
+}
+.loginButtonParent {
+  position: absolute;
+  top: 10.76px;
+  right: 57.75px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 39.59px;
+  cursor: pointer;
+}
+.home1 {
+  text-decoration: underline;
+}
+.home1,
+.product1 {
+  position: relative;
+  letter-spacing: -0.93px;
+  cursor: pointer;
+}
+.homeParent {
+  position: absolute;
+  top: 13.43px;
+  left: 268px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 49.78px;
+}
+.logo {
+  position: absolute;
+  top: 8.76px;
+  left: 94.67px;
+  font-size: 31.11px;
+  letter-spacing: -0.93px;
+  cursor: pointer;
+}
+.headerHome,
+.navbar {
+  position: absolute;
+  left: 0;
+  width: 1280px;
+}
+.navbar {
+  top: 36.57px;
+  border-bottom: 0.9px solid var(--color-gray-300);
+  box-sizing: border-box;
+  height: 54.86px;
+  font-size: var(--font-size-5xl);
+  color: var(--text-primary);
+  font-family: var(--font-lato);
+}
+.headerHome {
+  top: 0;
+  background-color: var(--background-primary);
+  height: 91.43px;
+  overflow: hidden;
+  font-size: 14.63px;
+  color: var(--colors-grey-white);
+  font-family: var(--font-public-sans);
+}
+.homeLanding {
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 5476px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 42.67px;
+  color: var(--color-gray-400);
+  font-family: var(--font-lexend);
+}

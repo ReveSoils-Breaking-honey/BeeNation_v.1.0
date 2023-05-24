@@ -1,12 +1,14 @@
 import express from "express";
 import * as dotenv from "dotenv";
 import cors from "cors";
+import bcrypt from "bcrypt";
 
 import connectDB from "./mongodb/connect.js";
 import userRouter from "./routes/user.routes.js";
-import propertyRouter from "./routes/property.routes.js";
+import productRouter from "./routes/product.routes.js";
 
-dotenv.config();
+dotenv.config();    
+
 
 const app = express();
 app.use(cors());
@@ -17,7 +19,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api/v1/users", userRouter);
-2r=2w13 42pt0app.use("/api/v1/properties", propertyRouter);
+app.use("/api/v1/products", productRouter);
 
 const startServer = async () => {
     try {
